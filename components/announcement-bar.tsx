@@ -22,8 +22,8 @@ export default function AnnouncementBar({ messages, direction = "left", speed = 
   const continuousMessages = [...messages, ...messages, ...messages, ...messages]
 
   return (
-    <div className="bg-gradient-to-r from-cyan-400 via-cyan-500 to-blue-500 text-white py-2.5 overflow-hidden relative shadow-lg">
-      <div className="absolute inset-0 bg-gradient-to-r from-cyan-400/20 via-blue-400/20 to-cyan-500/20"></div>
+    <div className="bg-gradient-to-r from-rose-600 via-red-600 to-pink-600 text-white py-2.5 overflow-hidden relative shadow-lg">
+      <div className="absolute inset-0 bg-gradient-to-r from-rose-500/30 via-red-500/30 to-pink-500/30"></div>
       <div
         className={`whitespace-nowrap animate-scroll-left flex items-center relative z-10`}
         style={{

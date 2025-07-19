@@ -19,7 +19,7 @@ const blogPosts = [
     icon: Monitor,
     date: "2024-01-15",
     readTime: "8 min read",
-    image: "/placeholder.svg?height=300&width=500",
+    image: "/images/computer-components.jpg",
     color: "bg-blue-500",
   },
   {
@@ -31,7 +31,7 @@ const blogPosts = [
     icon: Shield,
     date: "2024-01-10",
     readTime: "12 min read",
-    image: "/placeholder.svg?height=300&width=500",
+    image: "/images/security-cameras.jpg",
     color: "bg-green-500",
   },
   {
@@ -43,7 +43,7 @@ const blogPosts = [
     icon: HardDrive,
     date: "2024-01-05",
     readTime: "10 min read",
-    image: "/placeholder.svg?height=300&width=500",
+    image: "/images/service-center.jpg",
     color: "bg-cyan-500",
   },
   {
@@ -55,7 +55,7 @@ const blogPosts = [
     icon: Wifi,
     date: "2023-12-28",
     readTime: "7 min read",
-    image: "/placeholder.svg?height=300&width=500",
+    image: "/images/network-infrastructure.jpg",
     color: "bg-purple-500",
   },
   {
@@ -67,7 +67,7 @@ const blogPosts = [
     icon: Laptop,
     date: "2023-12-20",
     readTime: "6 min read",
-    image: "/placeholder.svg?height=300&width=500",
+    image: "/images/laptop-motherboard-repair.jpg",
     color: "bg-orange-500",
   },
   {
@@ -79,7 +79,7 @@ const blogPosts = [
     icon: Settings,
     date: "2023-12-15",
     readTime: "15 min read",
-    image: "/placeholder.svg?height=300&width=500",
+    image: "/images/cisco-equipment.jpg",
     color: "bg-red-500",
   },
 ]
@@ -137,7 +137,6 @@ export default function BlogPage() {
           "🏠 On-site IT services available across all areas in Goa!",
           "⚡ Emergency computer repair services - Same day solutions!",
         ]}
-        direction="right"
       />
 
       {/* Blog Posts */}
