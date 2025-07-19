@@ -404,8 +404,8 @@ export default function HomePage() {
                 <div className="bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-2xl rounded-3xl p-6 lg:p-10 border border-white/10 shadow-2xl">
                   <div className="relative">
                     <img
-                      src="/images/modern-desktop-setup.jpg"
-                      alt="Technology Consultancy Services"
+                      src="/images/service-center.jpg"
+                      alt="Technology Consultancy Professional Service Center"
                       className="w-full h-64 sm:h-80 lg:h-96 rounded-2xl shadow-2xl object-cover border-0"
                     />
 
@@ -447,7 +447,6 @@ export default function HomePage() {
           "🔒 Secure your business with our advanced CCTV and biometric systems!",
           "💾 Professional data recovery services with 95% success rate!",
         ]}
-        direction="right"
       />
 
       {/* Reverted Premium IT Solutions Section - Back to 2 columns mobile */}
