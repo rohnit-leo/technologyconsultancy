@@ -53,7 +53,6 @@ const services = [
     image: "/images/computer-components.jpg",
     color: "from-blue-600 to-cyan-500",
     features: ["Custom PC Builds", "Business Workstations", "Gaming Systems"],
-    price: "Starting ₹25,000",
     bgPattern: "bg-blue-50",
   },
   {
@@ -63,7 +62,6 @@ const services = [
     image: "/images/laptop-components.jpg",
     color: "from-purple-600 to-pink-500",
     features: ["Screen Replacement", "Motherboard Repair", "Data Recovery"],
-    price: "Repairs from ₹500",
     bgPattern: "bg-purple-50",
   },
   {
@@ -74,7 +72,6 @@ const services = [
     image: "/images/security-cameras.jpg",
     color: "from-emerald-600 to-teal-500",
     features: ["4K Cameras", "Night Vision", "Remote Monitoring"],
-    price: "Packages from ₹15,000",
     bgPattern: "bg-emerald-50",
   },
   {
@@ -84,7 +81,6 @@ const services = [
     image: "/images/biometric-scanner.jpg",
     color: "from-orange-600 to-amber-500",
     features: ["Fingerprint Systems", "Face Recognition", "Card Access"],
-    price: "Starting ₹8,000",
     bgPattern: "bg-orange-50",
   },
   {
@@ -94,7 +90,6 @@ const services = [
     image: "/images/network-infrastructure.jpg",
     color: "from-cyan-600 to-blue-500",
     features: ["Enterprise WiFi", "Network Security", "Server Setup"],
-    price: "Setup from ₹1,000",
     bgPattern: "bg-cyan-50",
   },
   {
@@ -104,7 +99,6 @@ const services = [
     image: "/images/service-center.jpg",
     color: "from-red-600 to-rose-500",
     features: ["RAID Recovery", "Cloud Backup", "Disaster Recovery"],
-    price: "Recovery from ₹1,500",
     bgPattern: "bg-red-50",
   },
 ]
@@ -159,8 +153,8 @@ const features = [
   },
   {
     icon: Shield,
-    title: "6-Month Warranty",
-    description: "Comprehensive warranty coverage",
+    title: "Guaranteed Satisfaction",
+    description: "Your peace of mind is our priority",
     color: "from-emerald-500 to-teal-500",
   },
   {
@@ -244,6 +238,7 @@ const techStack = [
   { icon: Database, name: "Storage", color: "from-emerald-500 to-teal-500" },
   { icon: Network, name: "Networking", color: "from-purple-500 to-pink-500" },
   { icon: Lock, name: "Security", color: "from-orange-500 to-amber-500" },
+  { icon: Camera, name: "CCTV Surveillance", color: "from-green-550 to-lime-500" }, // Added CCTV Surveillance
 ]
 
 export default function HomePage() {
@@ -507,20 +502,6 @@ export default function HomePage() {
                         className={`w-8 h-8 lg:w-12 lg:h-12 bg-gradient-to-r ${service.color} rounded-lg lg:rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300`}
                       >
                         <service.icon className="h-4 w-4 lg:h-6 lg:w-6 text-white" />
-                      </div>
-                    </div>
-
-                    {/* Price Badge */}
-                    <div className="absolute top-2 right-2 lg:top-3 lg:right-3 bg-white/90 backdrop-blur-sm px-2 py-1 rounded-full">
-                      <span className="text-xs lg:text-sm font-bold text-emerald-600">{service.price}</span>
-                    </div>
-
-                    {/* Play Button Overlay */}
-                    <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                      <div
-                        className={`w-12 h-12 lg:w-16 lg:h-16 bg-gradient-to-r ${service.color} rounded-full flex items-center justify-center shadow-2xl animate-pulse`}
-                      >
-                        <PlayCircle className="h-6 w-6 lg:h-8 lg:w-8 text-white" />
                       </div>
                     </div>
                   </div>

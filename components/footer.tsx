@@ -203,7 +203,7 @@ export default function Footer() {
       <div className="border-t border-white/10 bg-black/20">
         <div className="container mx-auto px-4 py-4 lg:py-6">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-            <div className="text-xs lg:text-sm text-gray-300">© 2024 Technology Consultancy. All rights reserved.</div>
+            <div className="text-xs lg:text-sm text-gray-300">© 2025 Technology Consultancy. All rights reserved.</div>
 
             {/* NextureX Credit */}
             <div className="flex items-center gap-2">
