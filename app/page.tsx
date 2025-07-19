@@ -237,7 +237,7 @@ const techStack = [
   { icon: Cpu, name: "Hardware", color: "from-blue-500 to-cyan-500" },
   { icon: Database, name: "Storage", color: "from-emerald-500 to-teal-500" },
   { icon: Network, name: "Networking", color: "from-purple-500 to-pink-500" },
-  { icon: Lock, name: "Security", color: "from-orange-500 to-amber-500" },
+  { icon: Lock, name: "Security Systems", color: "from-orange-500 to-amber-500" }, // Changed from "Security"
   { icon: Camera, name: "CCTV Surveillance", color: "from-green-550 to-lime-500" }, // Added CCTV Surveillance
 ]
 
